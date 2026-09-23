@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Lightbox from "@/components/Lightbox";
+import { cn } from "@/lib/utils";
 
 export default function ImageGallery({ images, emptyLabel }: { images: string[]; emptyLabel: string }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -16,14 +17,24 @@ export default function ImageGallery({ images, emptyLabel }: { images: string[];
 
   return (
     <>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div
+        className={cn(
+          "grid gap-4",
+          images.length === 1 ? "grid-cols-1" : "sm:grid-cols-2 lg:grid-cols-3"
+        )}
+      >
         {images.map((src, i) => (
           <button
             key={src + i}
             onClick={() => setOpenIndex(i)}
-            className="relative aspect-video rounded-xl overflow-hidden border border-borderc glow-blue-hover"
+            className="relative aspect-video rounded-xl overflow-hidden border border-borderc glow-blue-hover group"
           >
-            <img src={src} alt="" className="w-full h-full object-cover" loading="lazy" />
+            <img
+              src={src}
+              alt=""
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+              loading="lazy"
+            />
           </button>
         ))}
       </div>

@@ -122,7 +122,7 @@ O principal objetivo era criar uma experiência simples, intuitiva e organizada,
     results: "O projeto resultou em uma solução centralizada para apoiar a gestão condominial, buscando tornar o acompanhamento de informações, demandas e tarefas mais organizado e acessível.",
     learnings: "O projeto reforçou a importância de compreender diferentes perfis de usuários antes de definir uma solução, além de demonstrar como arquitetura da informação, fluxos e hierarquia visual podem contribuir para uma experiência mais simples e eficiente.",
     images: [
-      // adicionar aqui as imagens do projeto
+      "/projects/gacon/user-flow.jpg",
     ],
     links: [
       // adicionar aqui os links do projeto
