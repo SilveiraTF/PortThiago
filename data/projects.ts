@@ -66,8 +66,14 @@ export const projects: Project[] = [
     duration: "[EDITAR: duração do projeto]",
     team: "[EDITAR: composição da equipe]",
     tools: ["Figma", "Jira"],
-    problem: "[EDITAR: qual problema o GACon resolve e quem o enfrentava]",
-    context: "[EDITAR: contexto de negócio, usuários, limitações e objetivos]",
+    problem: `Como tornar a gestão de um condomínio mais simples, organizada e transparente para todos os envolvidos?
+
+Síndicos e administradores enfrentavam dificuldades para gerenciar demandas e informações, enquanto moradores e funcionários tinham pouca clareza sobre solicitações, tarefas e processos.
+
+O desafio do GACon foi centralizar essas experiências em uma única solução, reduzindo a fragmentação das informações e tornando a gestão mais acessível para diferentes perfis de usuários.`,
+    context: `O GACon foi desenvolvido como uma solução digital para centralizar e facilitar a gestão de condomínios, atendendo diferentes perfis de usuários, como síndicos, administradores, funcionários e moradores.
+
+O principal objetivo era criar uma experiência simples, intuitiva e organizada, reduzindo a fragmentação das informações e facilitando o acompanhamento das demandas do dia a dia.`,
     process: [
       { title: "Descoberta", description: "[EDITAR]" },
       { title: "Análise", description: "[EDITAR]" },
