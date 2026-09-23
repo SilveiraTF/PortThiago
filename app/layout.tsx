@@ -21,23 +21,26 @@ const siteUrl = "https://thiagoforneli.com"; // [EDITAR: domínio real após dep
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Thiago Forneli Silveira — UX/UI Designer",
+  title: {
+    default: "Thiago Forneli · UX/UI Designer",
+    template: "%s · Thiago Forneli",
+  },
   description:
-    "Portfólio de Thiago Forneli Silveira, UX/UI Designer com experiência em sistemas Web, Mobile, ERP, usabilidade e produtos digitais.",
-  keywords: ["UX Designer", "UI Designer", "Product Designer", "Portfólio", "Thiago Forneli Silveira"],
+    "Portfólio de Thiago Forneli, UX/UI Designer com experiência em sistemas corporativos, usabilidade e produtos digitais.",
+  keywords: ["UX Designer", "UI Designer", "Product Designer", "Portfólio", "Thiago Forneli"],
   openGraph: {
-    title: "Thiago Forneli Silveira — UX/UI Designer",
+    title: "Thiago Forneli · UX/UI Designer",
     description:
-      "Portfólio de Thiago Forneli Silveira, UX/UI Designer com experiência em sistemas Web, Mobile, ERP, usabilidade e produtos digitais.",
+      "Portfólio de Thiago Forneli, UX/UI Designer com experiência em sistemas corporativos, usabilidade e produtos digitais.",
     url: siteUrl,
-    siteName: "Thiago Forneli Silveira",
+    siteName: "Thiago Forneli",
     locale: "pt_BR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thiago Forneli Silveira — UX/UI Designer",
-    description: "Portfólio de Thiago Forneli Silveira, UX/UI Designer.",
+    title: "Thiago Forneli · UX/UI Designer",
+    description: "Portfólio de Thiago Forneli, UX/UI Designer.",
   },
   robots: { index: true, follow: true },
 };

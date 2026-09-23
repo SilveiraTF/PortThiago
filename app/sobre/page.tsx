@@ -3,8 +3,8 @@ import SectionTitle from "@/components/ui/SectionTitle";
 import ScrollReveal from "@/components/animations/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Sobre mim — Thiago Forneli Silveira",
-  description: "Conheça a trajetória de Thiago Forneli Silveira, UX/UI Designer.",
+  title: "Sobre mim",
+  description: "Conheça a trajetória de Thiago Forneli, UX/UI Designer.",
 };
 
 const journey = ["Usuário", "Experiência", "Produto", "Tecnologia", "Resultado"];

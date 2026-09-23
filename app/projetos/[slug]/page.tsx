@@ -14,7 +14,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const project = projects.find((p) => p.slug === params.slug);
   if (!project) return {};
   return {
-    title: `${project.title} — Thiago Forneli Silveira`,
+    title: project.title,
     description: project.description,
   };
 }

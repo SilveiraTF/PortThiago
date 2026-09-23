@@ -6,8 +6,8 @@ import ScrollReveal from "@/components/animations/ScrollReveal";
 import { contact } from "@/data/contact";
 
 export const metadata: Metadata = {
-  title: "Fale comigo — Thiago Forneli Silveira",
-  description: "Entre em contato com Thiago Forneli Silveira, UX/UI Designer.",
+  title: "Fale comigo",
+  description: "Entre em contato com Thiago Forneli, UX/UI Designer.",
 };
 
 const links = [

@@ -4,8 +4,8 @@ import ExperienceTimeline from "@/components/ExperienceTimeline";
 import { experience } from "@/data/experience";
 
 export const metadata: Metadata = {
-  title: "Experiência — Thiago Forneli Silveira",
-  description: "Trajetória profissional de Thiago Forneli Silveira.",
+  title: "Experiência",
+  description: "Trajetória profissional de Thiago Forneli.",
 };
 
 export default function ExperienciaPage() {
