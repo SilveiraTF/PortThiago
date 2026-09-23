@@ -20,7 +20,7 @@ export default function ProjectFilter({
           onClick={() => onChange(c)}
           className={cn(
             "relative px-4 py-2 rounded-full text-sm transition-colors",
-            active === c ? "text-bg" : "text-text-secondary hover:text-text-primary"
+            active === c ? "text-white font-medium" : "text-text-secondary hover:text-text-primary"
           )}
         >
           {active === c && (
