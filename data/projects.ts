@@ -56,15 +56,17 @@ export const projects: Project[] = [
   {
     id: "1",
     slug: "gacon",
-    title: "GACon",
+    title: "GACon - Gestão Administrativa de Condomínios",
     category: ["UX/UI", "Web", "Sistemas"],
-    description: "[EDITAR: descrição curta do sistema GACon e seu propósito]",
+    description: `O GACon é uma plataforma web criada para simplificar e centralizar a gestão de condomínios, conectando síndicos, administradores, funcionários e moradores em uma experiência mais organizada e intuitiva.
+
+Seu propósito é reduzir a complexidade da gestão e facilitar o acesso às informações, solicitações e tarefas do dia a dia.`,
     cover: "/projects/gacon/cover.jpg",
-    year: "[EDITAR: ano]",
-    role: "[EDITAR: papel de Thiago no projeto]",
+    year: "2022",
+    role: "Product & UI Designer",
     platform: "Web",
-    duration: "[EDITAR: duração do projeto]",
-    team: "[EDITAR: composição da equipe]",
+    duration: "Projeto independente",
+    team: "Individual",
     tools: ["Figma", "Jira"],
     problem: `Como tornar a gestão de um condomínio mais simples, organizada e transparente para todos os envolvidos?
 
@@ -75,23 +77,56 @@ O desafio do GACon foi centralizar essas experiências em uma única solução, 
 
 O principal objetivo era criar uma experiência simples, intuitiva e organizada, reduzindo a fragmentação das informações e facilitando o acompanhamento das demandas do dia a dia.`,
     process: [
-      { title: "Descoberta", description: "[EDITAR]" },
-      { title: "Análise", description: "[EDITAR]" },
-      { title: "Wireframes", description: "[EDITAR]" },
-      { title: "UI", description: "[EDITAR]" },
-      { title: "Entrega", description: "[EDITAR]" },
+      {
+        title: "Descoberta",
+        description: "Entendimento do contexto da gestão condominial, dos principais usuários e das dificuldades enfrentadas no dia a dia."
+      },
+      {
+        title: "Análise",
+        description: "Mapeamento das necessidades de síndicos, administradores, funcionários e moradores para identificar oportunidades de melhoria."
+      },
+      {
+        title: "Wireframes",
+        description: "Estruturação dos principais fluxos e telas, priorizando clareza, organização das informações e facilidade de navegação."
+      },
+      {
+        title: "UI",
+        description: "Transformação dos wireframes em uma interface moderna, consistente e intuitiva, com foco na experiência dos diferentes perfis de usuários."
+      },
+      {
+        title: "Entrega",
+        description: "Prototipação e organização da solução final, consolidando os fluxos e componentes definidos durante o projeto."
+      }
     ],
-    research: "[EDITAR: como a pesquisa/descoberta foi conduzida]",
-    userFlow: "[EDITAR: descrição do fluxo do usuário — adicionar imagem em /public/projects/gacon]",
-    wireframes: [],
+
+    research: "A pesquisa foi conduzida a partir da análise do contexto de gestão condominial e das necessidades dos diferentes perfis de usuários, buscando compreender suas principais dificuldades e oportunidades de melhoria.",
+    userFlow: "O fluxo foi estruturado para facilitar o acesso às principais funcionalidades do sistema, permitindo que cada perfil encontre rapidamente as informações e ações necessárias para realizar suas tarefas.",
+    wireframes: [
+      // adicionar aqui os wireframes do projeto
+    ],
     finalDesign: [],
     decisions: [
-      { title: "[EDITAR: decisão de design]", description: "[EDITAR: por quê]" },
+      {
+        title: "Centralização das informações",
+        description: "Organizar as principais informações e demandas em uma experiência centralizada, reduzindo a necessidade de buscar dados em diferentes canais."
+      },
+      {
+        title: "Interface simples e intuitiva",
+        description: "Priorizar uma navegação clara e uma hierarquia visual objetiva para facilitar o uso por diferentes perfis de usuários."
+      },
+      {
+        title: "Experiência para diferentes perfis",
+        description: "Considerar as necessidades de síndicos, administradores, funcionários e moradores na construção dos fluxos e da interface."
+      }
     ],
-    results: "[EDITAR: resultados qualitativos — não inventar métricas]",
-    learnings: "[EDITAR: o que foi aprendido]",
-    images: [],
-    links: [],
+    results: "O projeto resultou em uma solução centralizada para apoiar a gestão condominial, buscando tornar o acompanhamento de informações, demandas e tarefas mais organizado e acessível.",
+    learnings: "O projeto reforçou a importância de compreender diferentes perfis de usuários antes de definir uma solução, além de demonstrar como arquitetura da informação, fluxos e hierarquia visual podem contribuir para uma experiência mais simples e eficiente.",
+    images: [
+      // adicionar aqui as imagens do projeto
+    ],
+    links: [
+      // adicionar aqui os links do projeto
+    ],
     featured: true,
   },
   {
